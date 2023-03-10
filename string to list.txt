@@ -1,0 +1,4 @@
+s='1,2,3'
+n=int(s)
+n=list(s)
+print(n)

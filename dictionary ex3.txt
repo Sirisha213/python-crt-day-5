@@ -1,0 +1,11 @@
+student.update(
+    {"name":"name1","age":"20"}
+)
+print(student)
+
+student={}
+
+student.update(
+    {0:"student name",1:20,2:"address"}
+)
+print(student)

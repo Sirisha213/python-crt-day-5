@@ -1,0 +1,28 @@
+name="sreya"
+age=20
+id = "20a31a0214"
+print("hello {} ,your age is {} , your id {} ".format(name,age,id))
+
+name="sreya"
+age=20
+Id= "abcd1002"
+print(f"hello{name},your age is {age},Id is {Id}")
+
+class student:
+    name="sreya"
+    rollno="20a31a0214"
+    
+    def print_details(self):
+        print(f"name: {self.name} and rollno: {self.rollno}")
+        
+ob1 = student()
+ob1.print_details()
+
+class Car:
+    model="lambargini"
+    colour="black"
+    speed="1000km"
+    def print_details(self):
+        print(f"model:{self.model} ,colour:{self.colour} , speed:{self.speed}")
+ob=Car()
+ob.print_details()

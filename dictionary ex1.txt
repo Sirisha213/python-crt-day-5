@@ -1,0 +1,7 @@
+student={
+    "name":"Student1",
+    "age":"15",
+    "year":"2",
+    "section":"EEE"
+};
+print(student)

@@ -1,0 +1,6 @@
+data={
+    "event1":"inventrix",
+    "event2":"electruzzle",
+    "event3":"electrosaga",
+};
+print(data)

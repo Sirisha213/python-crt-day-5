@@ -1,0 +1,8 @@
+class student:
+    def __init__(self,name,rollno):
+        self.s_name = name
+        self.s_rollno = rollno
+        print(name,rollno)
+    def print_details(self):
+        print(f"name: {self.name}, and roll: {self.rollno}")
+ob1=student("sreya",214)

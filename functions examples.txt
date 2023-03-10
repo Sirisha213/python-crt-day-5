@@ -1,0 +1,46 @@
+def hello(a,b,c=0):
+    print(a)
+    print(b)
+    print(c)
+hello(10,20,50)
+
+def hello(a=90,b=60,c=0):
+    print(a)
+    print(b)
+    print(c)
+hello()
+
+def hello(a,b,c):
+    print(a)
+    print(b)
+    print(c)
+hello(b=10,c=40,a=50)
+
+def hello(x,y,z):
+    print(x)
+    print(y)
+    print(z)
+hello(y=40,x=20,z=0)
+
+def hello(*variable):
+    print(variable)
+hello(10,20,30)
+hello(10,20)
+hello(100,200,8,9,56)
+
+def hello(*variable):
+    print(variable)
+hello(10,20,30)
+hello(60,80,894)
+hello(56,78,45,"sreya",[2,3,4])
+
+def hello(*variable):
+    print(variable)
+hello()
+
+def hello(*variable):
+    print(sum(variable))
+hello(10,20,30)
+hello(10,20)
+hello(54,89,"hello",[1,2,4])
+hello()

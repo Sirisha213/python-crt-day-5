@@ -1,0 +1,9 @@
+class Student:
+    name = "sreya"
+    age = 20
+    s_class="EEE-A"
+    year=3
+ob1=Student()
+print(ob1.name)
+print(ob1.age)
+print(ob1.year)
